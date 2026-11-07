@@ -1,0 +1,13 @@
+{
+  "name": "eurogrip-ustaad-network",
+  "version": "1.0.0",
+  "description": "Eurogrip Ustaad Network - Intelligent Mechanic Empowerment and Brand Advocacy Ecosystem",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "frontend:build": "cd frontend && npm run build",
+    "test:integration": "node C:/Users/darsh/.gemini/antigravity/brain/fbf5321f-c878-49a6-bd2e-283549ac07e5/scratch/test_frontend_integration.js"
+  }
+}
+

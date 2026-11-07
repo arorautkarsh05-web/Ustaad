@@ -1,0 +1,33 @@
+{
+  "name": "ustaad-network-backend",
+  "version": "1.0.0",
+  "description": "Eurogrip Ustaad Network Backend API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node test/security_suite.test.js",
+    "test:e2e": "node test/e2e_journey.test.js",
+    "migrate": "node database/migrate_security.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "qrcode": "^1.5.3",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "json2csv": "^6.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
